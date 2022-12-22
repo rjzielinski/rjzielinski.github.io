@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>
+      
+        Example Reveal.js Presentation Deck | 
+      
+    </title>
+
+    <meta name="author" content="" />
+
+    <!-- Description -->
+    
+      <meta name="description" content="">
+    
+
+    <link rel="stylesheet" href="/reveal.js/dist/reveal.css"/>
+    
+      <link rel="stylesheet" href="/reveal.js/dist/theme/white.css "/>
+    
+
+    <!-- Code syntax highlighting -->
+    <link rel="stylesheet" href="/reveal.js/plugin/highlight/monokai.css"/>
+
+    <link rel="canonical" href="/presentation/example-presentation/">
+
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="reveal">
+      <div class="slides">
+        <section data-markdown="">
+  <textarea data-template="">
+    ## Reveal.js and Jekyll Academic
+    ---
+    ## HTML or Markdown
+    Reveal.js works with either. Use whatever you are more comfortable with.
+    ---
+    ## Works Anywhere
+    By creating presentations using Reveal.js and hosting them on your Jekyll Academic site you will have access to them anywhere. No need to worry about software compatibility, no need to sign in to email accounts on public machines. Simply load your website and select the presentation.
+    ---
+    ## More Information
+    Jekyll Academic includes everything that you need in order to make Reveal.js work. Copy this file and edit it to begin making your own slide deck.  
+    For more information about all of the options available in Reveal.js please the [Reveal.js Demo Website](https://lab.hakim.se/reveal-js/#/)
+  </textarea>
+</section>
+
+      </div>
+    </div>
+
+    <script src="/reveal.js/dist/reveal.js"></script>
+    <script src="/reveal.js/plugin/markdown/markdown.js"></script>
+		<script src="/reveal.js/plugin/notes/notes.js"></script>
+		<script src="/reveal.js/plugin/markdown/markdown.js"></script>
+		<script src="/reveal.js/plugin/highlight/highlight.js"></script>
+    <script>
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+        plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ],
+        controls: true,
+        progress: true,
+        history: true,
+        
+          transition: 'convex',
+        
+        center: true
+      });
+    </script>
+
+  </body>
+</html>
