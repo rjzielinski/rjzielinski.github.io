@@ -6,4 +6,3 @@ related_posts: false
 ---
 
 Our paper on Longitudinal Principal Manifold Estimation is available as a preprint [here](https://arxiv.org/abs/2407.17450)!
-
